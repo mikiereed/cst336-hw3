@@ -59,7 +59,7 @@
                 }
             }); //zip
             
-            $("#streetView").on("submit", function(e) {
+            $("#weatherUpdate").on("submit", function(e) {
                 //alert("Submitting form...")
                 if (!isFormValid()) {
                     e.preventDefault();
